@@ -1143,3 +1143,4 @@ cmd_log() {
 	require_feature_branch "$BRANCH"
 	git log "$BRANCH" ^"$ORIGIN/$DEVELOP_BRANCH" $@
 }
+
